@@ -15,7 +15,7 @@ To create a simple “Hello, World!” app in Flutter, you can use the print()fu
 
 ### Hello World code 
 
-```void main():{
+``` void main(): {
   print("Hello World");  
 }
 ```
