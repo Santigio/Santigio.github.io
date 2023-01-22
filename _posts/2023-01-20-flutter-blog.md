@@ -15,9 +15,9 @@ To create a simple “Hello, World!” app in Flutter, you can use the print()fu
 
 ### Hello World code 
 
-void main(): {
-      print("Hello World");  
-}
+``` void main() {
+      print("Hello World!");
+```
 
 
 To run this code, you can use the flutter run command in a terminal window. This will build and run the app on your local device or emulator.
