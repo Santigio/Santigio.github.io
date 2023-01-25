@@ -45,6 +45,7 @@ Here is an example of a function in Dart:
 void printHello() {
   print('Hello, World!');
 }
+
 ```
 
 Classes and objects: Dart supports object-oriented programming through the use of classes and objects. A class is a blueprint for creating objects, and an object is an instance of a class.
@@ -72,11 +73,13 @@ Control structures: Dart has various control structures for controlling the flow
 Here is an example of an if statement in Dart:
 
 ```
+
 if (age < 18) {
   print('You are not old enough to vote.');
 } else {
   print('You are old enough to vote.');
 }
+
 ```
 
 Exceptions: Dart has support for exception handling, which allows you to handle errors and exceptions that may occur during the execution of a program.
@@ -91,6 +94,7 @@ try {
 } catch (e) {
   print('Caught exception: $e');
 }
+
 ```
 
 
@@ -101,6 +105,7 @@ Future<int> fetchData() async {
   await Future.delayed(Duration(seconds: 3));
   return 42;
 }
+
 ```
 
 These are just a few examples of the concepts and features available in Dart. It is a versatile language with a wide range of tools and libraries for building a variety of applications.
@@ -120,6 +125,7 @@ void main() {
 void printHello() {
   print('Hello, World!');
 }
+
 ```
 
 In this example, the main function is the entry point of the program. It calls the printHello function, which simply prints the string "Hello, World!" to the console.
@@ -138,6 +144,7 @@ void main() {
   print('Is it rainy? $isRainy');
   print('Name: $name');
 }
+
 ```
 
 In this example, we declare and initialize variables for an integer, a double, a boolean, and a string. We then print these values to the console using string interpolation.
@@ -145,6 +152,7 @@ In this example, we declare and initialize variables for an integer, a double, a
 Here is an example of a simple class in Dart:
 
 ```
+
 class Person {
   String name;
   int age;
@@ -210,6 +218,7 @@ void main() {
 }
 
 ```
+
 
 In this example, we use the stdin.readLineSync function to read input from the user. We then split the input string into individual parts using the split function, and parse the operator and operands as variables.
 
@@ -278,15 +287,21 @@ void main() {
 
 ```
 
+
 In this example, we define a Book class with fields for the title, author, number of pages, price, and whether or not it is a hardcover book. We also define a BookStore class with a name and a list of books. The BookStore class has methods for printing the inventory, adding a book, and removing a book.
+
 
 In the main function, we create instances of the Book class and add them to a list. We then create an instance of the BookStore class and pass it the list of books.
 
+
 We call the printInventory method of the BookStore class and use the then function to chain multiple calls to the method. In between each call, we use the addBook and removeBook methods to modify the inventory of the bookstore.
+
 
 This example demonstrates how you can use classes, objects, lists, and asynchronous programming in Dart to build a program that handles complex data.
 In this tutorial, we learned about the Dart programming language and how it can be used to build web, mobile, and desktop applications. We learned about the key concepts and features of Dart, including variables, functions, classes, control structures, and asynchronous programming.
 
+
 We also saw examples of how these concepts and features can be used in Dart programs. We learned how to declare and initialize variables, define and call functions, create and use classes and objects, use control structures, and perform asynchronous tasks.
+
 
 In future tutorials, we will explore how to use the Flutter framework to build user interfaces for mobile apps using Dart. Flutter is a popular mobile development framework developed by Google that allows you to build cross-platform apps for iOS and Android with a single codebase. We will see how to use Flutter’s customizable widgets and tools to build beautiful and functional UIs for your apps.
