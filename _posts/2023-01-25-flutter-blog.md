@@ -1,5 +1,7 @@
 ## Flutter Tutorial Part 2
 
+![Flutter Image](https://miro.medium.com/v2/resize:fit:720/format:webp/1*BYsAMRy4iZF8vj1yB2D9xA.png)
+
 > In this tutorial, you will learn about the Dart programming language and how it can be used to build web, mobile, and desktop applications. You will learn about the key concepts and features of Dart, including variables, functions, classes, control structures, and asynchronous programming.
 
 > By the end of this tutorial, you should have a basic understanding of the Dart language and be able to write simple programs using various features of the language. You should also have a good foundation to build upon as you continue learning and exploring the capabilities of Dart.
@@ -15,13 +17,13 @@
 
 To install Dart on your local machine, you can follow these steps:Here are some key concepts in Dart:
 
-1. Go to the official Dart website at https://dart.dev/
+1. Go to the official Dart website at [Dart](https://dart.dev/)
 2. Click on the “Get Dart” button in the top right corner of the page.
 3. On the next page, click on the “Download” button under the “Dart SDK” section.
 4. Select the appropriate version of Dart for your operating system and download the installer.
 5. Run the installer and follow the prompts to complete the installation process.
 
-Alternatively, you can use an online Dart editor such as DartPad to try out Dart without installing it on your local machine. To use DartPad, simply go to https://dartpad.dartlang.org/ and start writing and running code in the browser.
+Alternatively, you can use an online Dart editor such as DartPad to try out Dart without installing it on your local machine. To use DartPad, simply go to [dartpad](https://dartpad.dartlang.org/) and start writing and running code in the browser.
 
 ### Dart Basic Concepts
 
