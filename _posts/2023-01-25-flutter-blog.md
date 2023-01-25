@@ -1,14 +1,14 @@
 ## Flutter Tutorial Part 2
 
-In this tutorial, you will learn about the Dart programming language and how it can be used to build web, mobile, and desktop applications. You will learn about the key concepts and features of Dart, including variables, functions, classes, control structures, and asynchronous programming.
+> In this tutorial, you will learn about the Dart programming language and how it can be used to build web, mobile, and desktop applications. You will learn about the key concepts and features of Dart, including variables, functions, classes, control structures, and asynchronous programming.
 
-By the end of this tutorial, you should have a basic understanding of the Dart language and be able to write simple programs using various features of the language. You should also have a good foundation to build upon as you continue learning and exploring the capabilities of Dart.
+> By the end of this tutorial, you should have a basic understanding of the Dart language and be able to write simple programs using various features of the language. You should also have a good foundation to build upon as you continue learning and exploring the capabilities of Dart.
 
-Dart is a programming language developed by Google that is used to build web, mobile, and desktop applications. It is designed to be easy to learn, with a syntax that is familiar to anyone who has worked with Java or C#.
+> Dart is a programming language developed by Google that is used to build web, mobile, and desktop applications. It is designed to be easy to learn, with a syntax that is familiar to anyone who has worked with Java or C#.
 
-One of the key features of Dart is its support for both object-oriented and functional programming styles. This allows developers to use the approach that best fits their needs, whether that be writing classes and objects or using functions and immutable data.
+> One of the key features of Dart is its support for both object-oriented and functional programming styles. This allows developers to use the approach that best fits their needs, whether that be writing classes and objects or using functions and immutable data.
 
-One of the main advantages of using Dart is that it can be compiled to run on both the server and the client side. This means that you can use it to build web applications that run in the browser, as well as mobile and desktop apps that run natively on various platforms.
+> One of the main advantages of using Dart is that it can be compiled to run on both the server and the client side. This means that you can use it to build web applications that run in the browser, as well as mobile and desktop apps that run natively on various platforms.
 
 
 ### Installation
