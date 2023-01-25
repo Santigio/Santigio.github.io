@@ -1,8 +1,8 @@
 ## Flutter Tutorial Part 1
 
-Welcome to our blog on app development with Flutter! In this post, we will provide a brief introduction to Flutter and discuss how to set up your computer for Flutter app development. We will also provide a simple “Hello, World!” example using the Dart programming language, which is used in Flutter app development.
+> Welcome to our blog on app development with Flutter! In this post, we will provide a brief introduction to Flutter and discuss how to set up your computer for Flutter app development. We will also provide a simple “Hello, World!” example using the Dart programming language, which is used in Flutter app development.
 
-Flutter is an open-source mobile app development framework created by Google. It allows developers to create natively compiled apps for mobile, web, and desktop from a single codebase. Flutter uses the Dart programming language, which is easy to learn and provides powerful features like mixins, generics, and global type inference.
+> Flutter is an open-source mobile app development framework created by Google. It allows developers to create natively compiled apps for mobile, web, and desktop from a single codebase. Flutter uses the Dart programming language, which is easy to learn and provides powerful features like mixins, generics, and global type inference.
 
 To start developing Flutter apps, you will need to set up your computer with the Flutter SDK (Software Development Kit) and any necessary dependencies. The first step is to install the Flutter SDK, which you can do by following the instructions on the Flutter website: https://flutter.dev/docs/get-started/install
 
