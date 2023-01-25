@@ -27,7 +27,7 @@ Alternatively, you can use an online Dart editor such as DartPad to try out Dart
 
 Once you have installed Dart or are using an online editor, you can start writing and running Dart programs by following the instructions in the documentation or other tutorials.
 
-Variables: Variables are used to store data in a program. Dart has support for various data types, including numbers, strings, and booleans. Here is an example of declaring and initializing variables in Dart:
+**Variables** : Variables are used to store data in a program. Dart has support for various data types, including numbers, strings, and booleans. Here is an example of declaring and initializing variables in Dart:
 
 ```
 int age = 30;
@@ -36,7 +36,7 @@ bool isRainy = true;
 String name = 'John';
 ```
 
-Functions: Functions are blocks of code that perform a specific task and can be called from other parts of the program.
+**Functions**: Functions are blocks of code that perform a specific task and can be called from other parts of the program.
 
 
 Here is an example of a function in Dart:
@@ -48,10 +48,10 @@ void printHello() {
 
 ```
 
-Classes and objects: Dart supports object-oriented programming through the use of classes and objects. A class is a blueprint for creating objects, and an object is an instance of a class.
+**Classes and objects**: Dart supports object-oriented programming through the use of classes and objects. A class is a blueprint for creating objects, and an object is an instance of a class.
 
 
-Here is an example of a class in Dart:
+*Here is an example of a class in Dart*:
 
 ```
 class Person {
@@ -67,7 +67,7 @@ class Person {
 
 ```
 
-Control structures: Dart has various control structures for controlling the flow of a program, including if statements, for loops, and while loops.
+**Control structures**: Dart has various control structures for controlling the flow of a program, including if statements, for loops, and while loops.
 
 
 Here is an example of an if statement in Dart:
@@ -82,10 +82,10 @@ if (age < 18) {
 
 ```
 
-Exceptions: Dart has support for exception handling, which allows you to handle errors and exceptions that may occur during the execution of a program.
+**Exceptions**: Dart has support for exception handling, which allows you to handle errors and exceptions that may occur during the execution of a program.
 
 
-Here is an example of try-catch block in Dart:
+*Here is an example of try-catch block in Dart*:
 
 ```
 try {
@@ -98,7 +98,7 @@ try {
 ```
 
 
-Async programming: Dart has support for asynchronous programming through the use of the async and await keywords. Async programming allows you to perform long-running tasks in the background without blocking the main thread of execution. Here is an example of an async function in Dart:
+**Async programming**: Dart has support for asynchronous programming through the use of the async and await keywords. Async programming allows you to perform long-running tasks in the background without blocking the main thread of execution. Here is an example of an async function in Dart:
 
 ```
 Future<int> fetchData() async {
@@ -130,7 +130,7 @@ void printHello() {
 
 In this example, the main function is the entry point of the program. It calls the printHello function, which simply prints the string "Hello, World!" to the console.
 
-Here is an example of using variables:
+*Here is an example of using variables*:
 
 ```
 void main() {
@@ -149,7 +149,7 @@ void main() {
 
 In this example, we declare and initialize variables for an integer, a double, a boolean, and a string. We then print these values to the console using string interpolation.
 
-Here is an example of a simple class in Dart:
+*Here is an example of a simple class in Dart*:
 
 ```
 
@@ -179,7 +179,7 @@ Overall, Dart is a powerful and versatile programming language that is well-suit
 
 
 
-1. A Calculator App
+1. **A Calculator App**
 
 ```
 
@@ -227,7 +227,7 @@ Next, we use a switch statement to evaluate the operator and perform the appropr
 This is a very basic example of a calculator app, but it demonstrates how you can use Dart to build a simple command-line application that takes input from the user and performs calculations.
 
 
-2. Bookstore Inventory Manager
+2. **Bookstore Inventory Manager**
 
 Here is an example of a program in Dart that uses a variety of concepts and features:
 
