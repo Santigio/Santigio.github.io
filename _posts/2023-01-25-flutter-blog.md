@@ -310,7 +310,7 @@ In future tutorials, we will explore how to use the Flutter framework to build u
 
 
 <script src="https://utteranc.es/client.js"
-        repo="[ENTER REPO HERE]"
+        repo="[ENTER REPO HERE](https://github.com/Santigio/Santigio.github.io/)"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
