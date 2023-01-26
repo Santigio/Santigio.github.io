@@ -33,3 +33,12 @@ In our next lesson, we’ll discuss Flutter programming language and components 
 22/01/2023
 
 
+<script src="https://utteranc.es/client.js"
+        repo="https://github.com/Santigio/Santigio.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
