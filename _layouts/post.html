@@ -30,11 +30,6 @@ layout: default
 </article>
 
 
-<script src="https://utteranc.es/client.js"
-        repo="https://github.com/Santigio/Santigio.github.io"
-        issue-term="url"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% if site.comments_repo %}
+  {% include comments.html %}
+{% endif %}
