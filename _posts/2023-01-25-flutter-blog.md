@@ -311,7 +311,8 @@ In future tutorials, we will explore how to use the Flutter framework to build u
 
 <script src="https://utteranc.es/client.js"
         repo="https://github.com/Santigio/Santigio.github.io"
-        issue-term="pathname"
+        issue-term="url"
+        label="Comment"
         theme="github-light"
         crossorigin="anonymous"
         async>
