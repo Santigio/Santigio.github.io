@@ -3,7 +3,7 @@
 
 > In today’s tutorial, we covered all about Flutter’s core concepts. We discussed widgets, state management, routing, networking, asynchronous programming, gesture detection, animation, theming, internationalization, and dependency injection. We also provided code examples to help illustrate each concept. If you haven’t installed the Flutter SDK yet, you can use FlutLab, an online Flutter development environment, to test your app and experiment with the concepts covered in this tutorial.
 
-**Widgets: These are the basic building blocks of a Flutter app. They are responsible for creating the visual elements of an app, such as buttons, text, and images.
+**Widgets**: These are the basic building blocks of a Flutter app. They are responsible for creating the visual elements of an app, such as buttons, text, and images.
 
 
 ```
@@ -29,7 +29,7 @@ class MyButton extends StatelessWidget {
 > The RaisedButton widget takes two arguments, the onPressed callback and the child widget, the child is the Text widget that will be displayed inside the button. The onPressed callback is a function that is called when the button is pressed and it is responsible for handling the button press event.
 
 
-**State Management: This refers to how an app maintains and updates its state. In Flutter, the recommended way of managing state is to use the setState method, which allows you to update the state of a widget and rebuild it as needed.
+**State Management**: This refers to how an app maintains and updates its state. In Flutter, the recommended way of managing state is to use the setState method, which allows you to update the state of a widget and rebuild it as needed.
 
 
 ```
@@ -70,7 +70,7 @@ class _MyCounterState extends State<MyCounter> {
 
 > The build method is responsible for creating the visual elements of the widget and it uses the current count to display the text.
 
-**Routing: This refers to how an app navigates between its different pages or screens. In Flutter, the recommended way of managing routing is to use the Navigator widget, which allows you to push and pop pages from a stack.
+**Routing**: This refers to how an app navigates between its different pages or screens. In Flutter, the recommended way of managing routing is to use the Navigator widget, which allows you to push and pop pages from a stack.
 
 ``` 
 // Example of managing routing with Navigator
@@ -132,7 +132,7 @@ class SecondPage extends StatelessWidget {
 > The Navigator widget uses a stack-based navigation model, where each new screen is pushed onto the top of the stack, and the back button pops the top screen from the stack. Also, you can use Navigator.push and Navigator.pushReplacement to navigate between pages, this way you can use the MaterialPageRoute class instead of using the routes map.
 
 
-**Networking: This refers to how an app retrieves data from a remote server. In Flutter, you can use the http package to make HTTP requests and receive responses.
+**Networking**: This refers to how an app retrieves data from a remote server. In Flutter, you can use the http package to make HTTP requests and receive responses.
 
 ```
 // Example of making a GET request
@@ -153,7 +153,7 @@ class MyAPI {
 
 > If the future has data, it will return a Text widget with the data, if the future has an error it will return a Text widget with the error message. If the future is still waiting for the response it will return a CircularProgressIndicator widget.
 
-**Asynchronous Programming: This refers to how an app can perform multiple tasks at the same time and handle their results. In Flutter, you can use the async and await keywords to write asynchronous code.
+**Asynchronous Programming**: This refers to how an app can perform multiple tasks at the same time and handle their results. In Flutter, you can use the async and await keywords to write asynchronous code.
 
 
 ```
@@ -182,7 +182,7 @@ class MyAsyncTask extends StatelessWidget {
 > It’s worth mentioning that there are other ways of handling async code in Flutter like using Streams or Futures, but async/await is the recommended and most widely used way.
 
 
-**Gesture Detection: This refers to how an app can detect and respond to user gestures such as taps and swipes. In Flutter, you can use the GestureDetector widget to detect gestures and call callbacks.
+**Gesture Detection**: This refers to how an app can detect and respond to user gestures such as taps and swipes. In Flutter, you can use the GestureDetector widget to detect gestures and call callbacks.
 
 ``` 
 // Example of gesture detection
@@ -208,7 +208,7 @@ class MyGestureDetector extends StatelessWidget {
 
 > The GestureDetector widget can handle many other types of gestures like onDoubleTap, onLongPress, onScaleEnd and onScaleStart, etc.
 
-**Animation: This refers to how an app can create visual effects and animations. In Flutter, you can use the Animation and Animated widgets to create animations, as well as the AnimationController to control the animation's behavior.
+**Animation**: This refers to how an app can create visual effects and animations. In Flutter, you can use the Animation and Animated widgets to create animations, as well as the AnimationController to control the animation's behavior.
 
 
 ```
@@ -264,7 +264,7 @@ class _MyAnimatedContainerState extends State<MyAnimatedContainer>
 
 > A FloatingActionButton is added to the screen, the button will be used to start the animation when pressed.
 
-**Theming: This refers to how an app can change its appearance based on a set of predefined styles. In Flutter, you can use the Theme widget to define and apply a theme to your app.
+**Theming**: This refers to how an app can change its appearance based on a set of predefined styles. In Flutter, you can use the Theme widget to define and apply a theme to your app.
 
 
 ```
@@ -299,7 +299,7 @@ Once the theme is created, it is passed to the MaterialApp widget as the theme p
 It’s worth mentioning that you can also use the Theme.of(context) method to access the current theme from anywhere in the app. This allows you to change the theme dynamically at runtime.
 Overall, Theming in Flutter allows you to easily define the visual style of your app, and apply it consistently throughout the app. It’s an essential feature for creating polished and professional-looking apps.
 
-**Internationalization: This refers to how an app can support multiple languages and cultures. In Flutter, you can use the intl package to handle translations and localization.
+**Internationalization**: This refers to how an app can support multiple languages and cultures. In Flutter, you can use the intl package to handle translations and localization.
 
 ```
 // Example of internationalization
@@ -336,7 +336,7 @@ String greeting(String name) => Intl.message(
 
 ```
 
-**Dependency Injection: This refers to how an app can manage its dependencies and make them easily testable. In Flutter, you can use a dependency injection library like flutter_injector to handle the instantiation and management of dependencies.
+**Dependency Injection**: This refers to how an app can manage its dependencies and make them easily testable. In Flutter, you can use a dependency injection library like flutter_injector to handle the instantiation and management of dependencies.
 
 ```
 class MyApp extends StatelessWidget {
