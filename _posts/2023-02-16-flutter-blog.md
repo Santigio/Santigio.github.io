@@ -5,12 +5,12 @@
 > This post is the first of three chapter series of Web Development Fundamentals for Absolute Beginners. The first will be the fundamentals, followed by Frontend, and Backend.
 
 
-### It may be intimidating to learn web programming. It might be challenging to choose the best resources for learning how to code because there is so much information available. As a result, many beginners routinely give up before they even started. You have come to the perfect place if you don’t know where to begin.
+It may be intimidating to learn web programming. It might be challenging to choose the best resources for learning how to code because there is so much information available. As a result, many beginners routinely give up before they even started. You have come to the perfect place if you don’t know where to begin.
 
-### In this guide, we’ll start with the fundamentals — and introduce you to the most critical aspect of web development.
+In this guide, we’ll start with the fundamentals — and introduce you to the most critical aspect of web development.
 
 
-### At the end of this article, you should be able to:
+***At the end of this article, you should be able to:***
 
 1. Start thinking like a Web Developer.
 2. Be able to explain what web development is and the roles of HTML, CSS, and JavaScript in creating web content.
